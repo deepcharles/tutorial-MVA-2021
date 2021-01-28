@@ -1,0 +1,39 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v3.4.0
+  hooks:
+    - id: trailing-whitespace  # This hook trims trailing whitespace.
+    - id: check-docstring-first  # Checks a common error of defining a docstring after code.
+    - id: check-merge-conflict  # Check for files that contain merge conflict strings.
+    - id: check-yaml  # This hook checks yaml files for parseable syntax.
+    - id: detect-private-key  # Detects the presence of private keys.
+    - id: check-symlinks
+    - id: check-toml
+    - id: requirements-txt-fixer
+    - id: no-commit-to-branch
+      args: ['--branch', 'main']
+- repo: https://github.com/pre-commit/pygrep-hooks
+  rev: v1.7.0
+  hooks:
+    - id: python-no-eval  # A quick check for the eval() built-in function.
+- repo: https://github.com/myint/docformatter
+  rev: v1.4
+  hooks:
+    - id: docformatter
+      args: [--in-place]
+- repo: https://gitlab.com/pycqa/flake8
+  rev: 3.8.4
+  hooks:
+    - id: flake8
+-   repo: https://github.com/asottile/blacken-docs
+    rev: v1.9.2
+    hooks:
+    - id: blacken-docs
+- repo: https://github.com/nbQA-dev/nbQA
+  rev: 0.5.7
+  hooks:
+    - id: nbqa-black
+      args: [--nbqa-mutate]
+    - id: nbqa-isort
+      additional_dependencies: [isort==5.6.4]
+      args: [--nbqa-mutate]
