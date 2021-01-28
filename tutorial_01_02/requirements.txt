@@ -1,0 +1,10 @@
+dtw-python
+ipython
+loadmydata
+matplotlib
+numpy
+pandas
+scikit-learn
+scipy
+sporco
+statsmodels
