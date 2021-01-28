@@ -9,7 +9,7 @@
 
     These tutorials use Python 3 (version 3.6 at least) and [Jupyter notebooks](https://jupyter.org/).
     You will also need several Python packages that are listed in `requirements.txt` files in the relevant folders.
-    
+
     **With  `pip`**
     All packages can be installed using `pip install package_name`.
 
@@ -22,7 +22,7 @@
 
 <details>
     <summary>Communicate</summary>
-  
+
     Please feel free to open an issue if you think something is wrong or could be improved!
     To that end, go to the [Issues](https://github.com/deepcharles/tutorial-MVA-2021/issues) section of this repository.
 
