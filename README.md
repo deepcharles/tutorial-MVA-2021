@@ -38,5 +38,14 @@ Themes:
 - Dynamic time warping
 - Feature extraction and selection
 
-## Tutorials 1 and 2
+## Tutorials 3 and 4
+
+Friday 19<sup>th</sup> February 2021
+
+Themes:
+- Signal prediction
+- Trend decomposition
+- Stationary processes
+- SSA
+- Matrix profile
 
