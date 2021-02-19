@@ -37,3 +37,6 @@ Themes:
 - Convolutional dictionary learning
 - Dynamic time warping
 - Feature extraction and selection
+
+## Tutorials 1 and 2
+
