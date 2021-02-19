@@ -1,7 +1,7 @@
 name: Create an issue on push to master
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   stuff:
