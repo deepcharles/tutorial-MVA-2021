@@ -13,7 +13,7 @@ repos:
     - id: no-commit-to-branch
       args: ['--branch', 'main']
 - repo: https://github.com/pre-commit/pygrep-hooks
-  rev: v1.7.1
+  rev: v1.8.0
   hooks:
     - id: python-no-eval  # A quick check for the eval() built-in function.
 - repo: https://github.com/myint/docformatter
@@ -26,11 +26,11 @@ repos:
   hooks:
     - id: flake8
 -   repo: https://github.com/asottile/blacken-docs
-    rev: v1.9.2
+    rev: v1.10.0
     hooks:
     - id: blacken-docs
 - repo: https://github.com/nbQA-dev/nbQA
-  rev: 0.5.7
+  rev: 0.5.9
   hooks:
     - id: nbqa-black
       args: [--nbqa-mutate]
