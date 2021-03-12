@@ -138,3 +138,4 @@ ipython_config.py
 
 # Custom
 .DS_Store
+.vscode/settings.json
