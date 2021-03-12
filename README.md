@@ -49,3 +49,10 @@ Themes:
 - SSA
 - Matrix profile
 
+## Tutorials 5 and 6
+
+Friday 12<sup>th</sup> March 2021
+
+Themes:
+- Change point detection
+- Graph signal processing
