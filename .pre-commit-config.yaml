@@ -1,6 +1,6 @@
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v3.4.0
+  rev: v4.0.1
   hooks:
     - id: trailing-whitespace  # This hook trims trailing whitespace.
     - id: check-docstring-first  # Checks a common error of defining a docstring after code.
@@ -13,7 +13,7 @@ repos:
     - id: no-commit-to-branch
       args: ['--branch', 'main']
 - repo: https://github.com/pre-commit/pygrep-hooks
-  rev: v1.8.0
+  rev: v1.9.0
   hooks:
     - id: python-no-eval  # A quick check for the eval() built-in function.
 - repo: https://github.com/myint/docformatter
@@ -21,8 +21,8 @@ repos:
   hooks:
     - id: docformatter
       args: [--in-place]
-- repo: https://gitlab.com/pycqa/flake8
-  rev: 3.8.4
+- repo: https://github.com/PyCQA/flake8
+  rev: 3.9.2
   hooks:
     - id: flake8
 -   repo: https://github.com/asottile/blacken-docs
@@ -30,7 +30,7 @@ repos:
     hooks:
     - id: blacken-docs
 - repo: https://github.com/nbQA-dev/nbQA
-  rev: 0.5.9
+  rev: 0.13.1
   hooks:
     - id: nbqa-black
       args: [--nbqa-mutate]
